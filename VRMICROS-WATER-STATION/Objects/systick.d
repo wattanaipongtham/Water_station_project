@@ -1,0 +1,10 @@
+.\objects\systick.o: sysTick.c
+.\objects\systick.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+.\objects\systick.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f105xc.h
+.\objects\systick.o: .\Drivers\CMSIS\Include\core_cm3.h
+.\objects\systick.o: H:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: .\Drivers\CMSIS\Include\cmsis_version.h
+.\objects\systick.o: .\Drivers\CMSIS\Include\cmsis_compiler.h
+.\objects\systick.o: .\Drivers\CMSIS\Include\cmsis_armcc.h
+.\objects\systick.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+.\objects\systick.o: sysTick.h

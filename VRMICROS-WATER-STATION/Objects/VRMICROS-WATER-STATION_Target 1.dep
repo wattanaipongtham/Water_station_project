@@ -1,0 +1,76 @@
+Dependencies for Project 'VRMICROS-WATER-STATION', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x62FB7159)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (H:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60253184)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (H:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60253184)
+I (H:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x60253186)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f105xc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5D1623CA)
+I (systemClockConfig.h)(0x62EB7CE5)
+I (sysTick.h)(0x62EB866F)
+I (usart.h)(0x62F5F154)
+I (GSMCommand.h)(0x62F8B767)
+I (ECDO.h)(0x62F604E8)
+F (.\systemClockConfig.c)(0x62EB7F15)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\systemclockconfig.o --omf_browse .\objects\systemclockconfig.crf --depend .\objects\systemclockconfig.d)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f105xc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5D1623CA)
+I (systemClockConfig.h)(0x62EB7CE5)
+F (.\sysTick.c)(0x62EB866A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f105xc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5D1623CA)
+I (sysTick.h)(0x62EB866F)
+F (.\usart.c)(0x62FB770A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (H:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60253184)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62EA9A1E)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (usart.h)(0x62F5F154)
+F (.\ECDO.c)(0x62F5FA96)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\ecdo.o --omf_browse .\objects\ecdo.crf --depend .\objects\ecdo.d)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62EA9A1E)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (ECDO.h)(0x62F604E8)
+F (.\systemClockConfig.h)(0x62EB7CE5)()
+F (.\sysTick.h)(0x62EB866F)()
+F (.\usart.h)(0x62F5F154)()
+F (.\GSMCommand.h)(0x62F8B767)()
+F (.\ECDO.h)(0x62F604E8)()
+F (RTE\Device\STM32F105RB\RTE_Device.h)(0x5FC05DFA)()
+F (RTE\Device\STM32F105RB\startup_stm32f10x_cl.s)(0x61AD876E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_CL SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_cl.lst --xref -o .\objects\startup_stm32f10x_cl.o --depend .\objects\startup_stm32f10x_cl.d)
+F (RTE\Device\STM32F105RB\system_stm32f10x.c)(0x61AD876E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I .\Drivers\CMSIS\Include-I.\RTE\Device\STM32F105RB-I.\RTE\_Target_1-IH:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IH:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_CL -D_RTE_ -DSTM32F105xC-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_Target_1\RTE_Components.h)(0x62EA9A1E)
+I (.\Drivers\CMSIS\Include\core_cm3.h)(0x5D1623CA)
+I (H:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025318E)
+I (.\Drivers\CMSIS\Include\cmsis_version.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_compiler.h)(0x5D1623CA)
+I (.\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5D1623CA)
+I (H:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD876E)

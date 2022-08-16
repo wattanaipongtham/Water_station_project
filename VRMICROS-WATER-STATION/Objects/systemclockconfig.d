@@ -1,0 +1,10 @@
+.\objects\systemclockconfig.o: systemClockConfig.c
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f105xc.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Include\core_cm3.h
+.\objects\systemclockconfig.o: H:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Include\cmsis_version.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Include\cmsis_compiler.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Include\cmsis_armcc.h
+.\objects\systemclockconfig.o: .\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+.\objects\systemclockconfig.o: systemClockConfig.h
